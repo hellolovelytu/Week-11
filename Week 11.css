@@ -1,0 +1,33 @@
+body{
+    background-color: rgb(224, 230, 255);
+}
+h1{/*format the game name banner*/
+    color: rgb(2, 147, 31);
+    font-size: 3.5rem;
+    font-style:oblique;
+    padding: 5px;
+}
+h2{ /*format the Current player banner*/
+    margin-bottom: 20px;
+}
+.button{/*format the button*/
+    margin-left: 50rem;
+    margin-top: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: rgb(12, 180, 87);
+    font-size: 20px;
+    font-weight: 400;
+    color: antiquewhite;
+    border: 1px solid rgb(4, 114, 11);
+}
+.square{/* adjust the square size, color, border and X-O*/
+    width: 200px;
+    height: 200px;
+    background-color: rgb(236, 248, 240);
+    max-width: 200px;
+    max-height: 200px;
+    border: 2px solid rgb(116, 197, 116);
+    font-size:8rem;
+    text-align: center;
+}
